@@ -1,0 +1,88 @@
+-------------------------------------------------------------
+1. masala
+Given an array of intervals where intervals[i] = [start, end],
+merge all overlapping intervals, and return an array of the non-overlapping intervals
+that cover all the intervals in the input.
+
+Example 1:
+Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
+Output: [[1,6],[8,10],[15,18]]
+Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
+
+Example 2:
+Input: intervals = [[1,4],[4,5]]
+Output: [[1,5]]
+Explanation: Intervals [1,4] and [4,5] are considered overlapping.
+
+-------------------------------------------------------------
+2. masala
+Given an integer array nums, return the maximum difference between two successive
+elements in its sorted form. If the array contains less than two elements, return 0.
+You must write an algorithm that runs in linear time and uses linear extra space.
+
+Example 1:
+Input: nums = [3,6,9,1]
+Output: 3
+Explanation: The sorted form of the array is [1,3,6,9], either (3,6) or (6,9) has the maximum difference 3.
+
+Example 2:
+Input: nums = [10]
+Output: 0
+Explanation: The array contains less than 2 elements, therefore return 0.
+
+-------------------------------------------------------------
+3. masala
+You are given an integer array coins representing coins of different denominations and an integer
+amount representing a total amount of money.
+Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be
+made up by any combination of the coins, return -1.
+You may assume that you have an infinite number of each kind of coin.
+
+Example 1:
+Input: coins = [1,2,5], amount = 11
+Output: 3
+Explanation: 11 = 5 + 5 + 1
+
+Example 2:
+Input: coins = [2], amount = 3
+Output: -1
+
+Example 3:
+Input: coins = [1], amount = 0
+Output: 0
+
+-------------------------------------------------------------
+4. masala
+Given two strings s and p, return an array of all the start indices of p's anagrams in s.
+You may return the answer in any order.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase,
+typically using all the original letters exactly once.
+
+Example 1:
+Input: s = "cbaebabacd", p = "abc"
+Output: [0,6]
+Explanation:
+The substring with start index = 0 is "cba", which is an anagram of "abc".
+The substring with start index = 6 is "bac", which is an anagram of "abc".
+
+Example 2:
+Input: s = "abab", p = "ab"
+Output: [0,1,2]
+Explanation:
+The substring with start index = 0 is "ab", which is an anagram of "ab".
+The substring with start index = 1 is "ba", which is an anagram of "ab".
+The substring with start index = 2 is "ab", which is an anagram of "ab".
+
+-------------------------------------------------------------
+5. masala
+Create a program code that converts a given natural number into a Roman numeral
+
+Example 1:
+Input: natural = 5
+Output: V
+
+Example 2:
+Input: natural = 62
+Output: LXII
+
+
